@@ -7,6 +7,7 @@ end
 
 def batch_badge_creator(array)
   array.map |person|
+  binding.pry
     badge_maker(person)
   end 
 end 
