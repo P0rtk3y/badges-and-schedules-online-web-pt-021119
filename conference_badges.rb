@@ -20,6 +20,7 @@ def assign_rooms(array)
 end 
 
 def printer(attendees)
+  binding.pry
   batch_badge_creator(attendees)
   assign_rooms(attendees)
 end 
